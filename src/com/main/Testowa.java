@@ -14,6 +14,16 @@ public class Testowa {
 		for (int i=0; i<monkeys.length; i++){
 			System.out.println(monkeys[i]);
 		}
+		
+		
+		public int checkWhich(){
+			 for (int i=0; i<warriorsList.size();i++){
+				if (name.equals(warriorsList.get(i).getName())){
+					return i;
+				}
+			 } 
+			 return 0;
+		    }
 	}
 
 }
